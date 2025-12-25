@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="uk"> <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAB2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="upload_form_wrap">
+        <form action="process.php" method="post" enctype="multipart/form-data">
+            <div id="upload_form">
+                <label id="iFile_upload_label" for="iFile_upload">Оберіть зображення...</label>
+                <input type="file" name="file_upload" id="iFile_upload">
+                
+                <input type="submit" id="iSubmit_UF" value="Завантажити"> 
+            </div>  
+        </form>
+    </div>
+    <hr>
+    <div id="text_form_wrap">    
+        <form action="text.php" method="post">
+            <div id="text_form">    
+                <label for="iUser_text">Введіть ваш текст:</label><br>
+                
+                <textarea name="user_text" id="iUser_text" rows="4" cols="50" required></textarea><br><br>
+                <div id="hl_submit">
+                    <input id="iSubmit_user_text" type="submit" value="Зберегти текст">
+                </div>
+            </div> 
+        </form>
+    </div>
+    <hr>
+    <div id="container_file_list">
+        <h3>Перегляд файлів</h3>
+        <a id="iLink_file_list" href="list.php">
+            Відкрити список завантажених файлів
+        </a>
+    </div>
+</body>
+
+</html>

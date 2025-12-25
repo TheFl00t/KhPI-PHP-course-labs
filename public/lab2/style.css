@@ -1,0 +1,90 @@
+body {
+    font-family: Arial;
+}
+
+
+/* Upload-form */
+
+#upload_form {
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding: 20px 30px 20px 30px;
+    margin: 20px 0px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px 0 #00000033;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+#iFile_upload_label {
+    text-align: center;
+    background-color: #a9ff77;
+    border: 2px solid #6eb148;
+    border-radius: 4px;
+    padding: 20px 80px;
+    cursor: pointer;
+    
+    transition: background-color 0.35s ease-in-out;
+    transition: border 0.15s ease-in-out;
+}
+
+#iFile_upload_label:hover {
+    background-color: #dcffc8;
+    border: 2px solid #dcffc8;
+}
+
+#iSubmit_UF {
+    margin: auto;
+    margin-top: 14px;
+    padding: 8px 16px 8px 16px;
+    cursor: pointer;
+}
+
+/* Text-form */
+
+#text_form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 20px 0px;
+    padding: 20px 24px 20px 24px;
+    justify-self: center;
+    border-radius: 6px;
+    box-shadow: 0 0 10px 0 #00000033;
+}
+
+#iUser_text {
+    outline-width: 2px;
+    outline-color: #ffc456;
+}
+
+#hl_submit {
+    text-align: right;
+    cursor: text;
+}
+
+#iSubmit_user_text {
+    padding: 8px 16px 8px 16px;
+    cursor: pointer;
+}
+
+/* Container file-list */
+
+#container_file_list {
+    text-align: center;
+    width: 70%;
+    margin: 20px 0px;
+    padding: 10px 24px 20px 24px;
+    justify-self: center;
+    border-radius: 6px;
+    box-shadow: 0 0 10px 0 #00000033;
+}
+
+#iLink_file_list {
+    font-size: 18px; 
+    color: blue;
+}
