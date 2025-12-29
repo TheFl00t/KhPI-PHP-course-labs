@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.auth-box {
+    width: fit-content;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 4px 0 #00000099;
+}
+
+.username-badge {
+    background-color: #88888855;
+    border-radius: 3px;
+    padding: 0 5px;
+}
+
+.logout-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.btn {
+    height: 30px;
+    cursor: pointer;
+}
+
+.btn-logout {
+    margin-left: 1.5em;
+}

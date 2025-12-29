@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.form-wrap {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 4px 0 #00000099;
+}
+
+.btn {
+    margin-top: 16px;
+    padding: 10px 14px;
+    width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+td, th {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+th {
+    background: #eee;
+}
+
+.info-box {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.content-wrap {
+    width: max-content;
+}
+
+.back-arrow {
+    text-align: right;
+}
+
