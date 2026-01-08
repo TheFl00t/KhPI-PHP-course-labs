@@ -1,0 +1,16 @@
+:root {
+    --empty-field-color: rgb(255, 73, 73);
+    --error-msg-color: red;
+}
+
+.empty-field {
+    color: var(--empty-field-color);
+}
+
+.error-msg {
+    color: var(--error-msg-color);
+}
+
+.btn {
+    margin-top: 0.4em;
+}
