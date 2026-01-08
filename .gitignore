@@ -8,4 +8,5 @@
 
 .tmp/
 uploads/
+cache/
 log.txt
